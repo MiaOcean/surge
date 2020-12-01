@@ -1,0 +1,34 @@
+#!name=Tartarus iOS Tasks Module
+#!desc=iOS Tasks 模块配置
+[Script]
+# By zZPigle   GitHub：https://github.com/zZPiglet/Task/tree/master
+cron "0 1,20 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行
+
+# By lxk0301   GitHub：https://github.com/lxk0301/scripts
+cron "1 7-21/2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_plantBean.js,timeout=30, tag=京东种豆得豆
+cron "3 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_moneyTree.js,timeout=30, tag=京东摇钱树
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_club_lottery.js,tag=摇京豆
+cron "11 1-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_superMarket.js,timeout=30, tag=京小超
+cron "20 5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js,timeout=30, tag=京小超领蓝币(兑换京豆)
+cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_shop.js,timeout=30, tag=进店领豆
+#cron "1 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_818.js, timeout=30, tag=京东手机狂欢城
+#cron "1 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_xtg.js, tag=星推
+#cron "20 * * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_collectProduceScore.js, tag=京东全民营业领金币
+cron "2 9 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js, tag=京豆变动通知
+京东点点券 = type=cron,cronexp="10 0,20 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_necklace.js
+
+# By NobyDa    GitHub：https://github.com/NobyDa/Script/tree/master
+cron "15 0 * * *" ,timeout=30, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,timeout=30, tag=东东
+
+# Peng-YM  https://github.com/Peng-YM/QuanX/tree/master/Tasks
+cron "30 8-22 * * *" script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, tag=彩云天气
+
+# Sunert https://github.com/Sunert/Scripts/tree/master/Task
+cron "0 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, tag=微博&钱包
+cron "20 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag=中青看点极速版
+
+# congcong0806   https://github.com/congcong0806/surge-list/tree/master
+cron "0 8 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/daysmatter.js, tag=倒数日
+cron "0 7-23 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/time.js, tag=今日时间
+
+
