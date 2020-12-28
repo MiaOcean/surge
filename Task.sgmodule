@@ -54,10 +54,6 @@ crazyJoy任务 = type=cron,cronexp="10 * * * *",wake-system=1,timeout=20,script-
 
 超级直播间红包雨 = type=cron,cronexp="30,31 20-23/1 26 * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/jd_scripts/once/jd_live_redRain_26.js
 
-cron "10 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/ttwk/ttwk.js, tag=天天挖矿
-
-cron "5 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_starStore.js, tag=京东星店长
-
 cron "10 7-19/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pet.js,timeout=30, tag=东东萌宠
 
 cron "1 1 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js, tag=京东全民开红包
