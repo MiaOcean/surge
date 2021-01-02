@@ -1,5 +1,5 @@
-#!name=Tartarus iOS Tasks Module
-#!desc=iOS Tasks 模块配置
+#!name=Ocean iOS Tasks Module
+#!desc=iOS Ocean 模块配置
 [Script]
 # By zZPigle   GitHub：https://github.com/zZPiglet/Task/tree/master
 cron "0 1,20 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行
