@@ -9,3 +9,11 @@ cron "0 7-23 * * *" script-path=https://github.com/congcong0806/surge-list/raw/m
 中青看看赚 = type=cron, cronexp="30 6 * * *", wake-system=1, timeout=180, script-path= https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js
 cron "3 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行
 cron "59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js, tag=滴滴出行检查
+cron "3 10 * * *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_marketLottery.js, tag=🐶京东超市-大转盘
+cron "15 10 26-31 2,3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_unionPoster.js, tag=🐶美的家电节
+cron "15 10 10-31 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_unionPoster.js, tag=京东美的家电节
+cron "10 10,15 13-20 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_wish.js, tag=京东众筹许愿池
+cron "10 10 16-18 * *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_xmf.js, tag= 京东小魔方
+cron "12 15 15-29 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_lenovo.js, tag=联想集卡活动
+cron "5 8,14,20 17-25 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mother_jump.js,tag=母婴-跳一跳
+cron "11 12 17-30 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_oneplus.js, tag=一加盲盒
