@@ -9,3 +9,6 @@ cron "0 7-23 * * *" script-path=https://github.com/congcong0806/surge-list/raw/m
 #cron "3 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行
 cron "59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js, tag=滴滴出行检查
 cron "15 12,14,16,20,22 * * *" script-path=https://raw.githubusercontent.com/age174/-/main/ysm.js, tag=云扫码
+
+#整点京豆雨
+0 * * * * script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, tag=整点京豆雨
