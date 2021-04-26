@@ -5,3 +5,4 @@
 [Script]
 东东超市兑换奖品Mia = type=cron,cronexp="58,59,0,1,2 59,0 23,0 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js
 京东汽车兑换Mia = type=cron,cronexp="58,59,0,1,2 59,0 23,0 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js
+惊喜财富岛提现Mia = type=cron,cronexp="58,59,0,1,2 59,0 23,0 * * *",wake-system=1,timeout=3600,script-path=https://qxzy.top/rules/QuantumultX/js/jx_cfdtx.js
