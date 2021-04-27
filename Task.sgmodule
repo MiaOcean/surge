@@ -13,3 +13,5 @@ cron "15 12,14,16,20,22 * * *" script-path=https://raw.githubusercontent.com/age
 #整点京豆雨
 cron "0 * * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, tag=整点京豆雨
  
+
+注销京东会员卡 = type=cron,cronexp="55 23 * * 6",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_unbind.js
