@@ -13,5 +13,6 @@ cron "0 7-23 * * *" script-path=https://github.com/congcong0806/surge-list/raw/m
 #整点京豆雨
 cron "0 * * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, tag=整点京豆雨
 #京东到家
-cron "0 0 * * *" script-path=https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_bean.js, tag=京东到家豆豆
-
+#cron "0 0 * * *" script-path=https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_bean.js, tag=京东到家豆豆
+#半点
+半点京豆雨 = type=cron,cronexp="30 20-23/1 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js
