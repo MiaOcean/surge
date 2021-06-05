@@ -2,8 +2,8 @@
 #!desc=iOS Ocean 模块配置
 [Script]
 #cron "0 1,20 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行
-cron "0 8 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/daysmatter.js, tag=倒数日
-cron "0 7-23 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/time.js, tag=今日时间
+#cron "0 8 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/daysmatter.js, tag=倒数日
+#cron "0 7-23 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/time.js, tag=今日时间
 #中青自动阅读 = type=cron, cronexp="10 1-23 * * *", wake-system=1, timeout=180, script-path= https://raw.githubusercontent.com/CenBoMin/QuantumultX/master/Scripts/Youth/Youth_AutoRead.js,
 #中青看看赚 = type=cron, cronexp="30 6 * * *", wake-system=1, timeout=180, script-path= https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js
 #cron "3 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行
@@ -11,8 +11,10 @@ cron "0 7-23 * * *" script-path=https://github.com/congcong0806/surge-list/raw/m
 #cron "15 12,14,16,20,22 * * *" script-path=https://raw.githubusercontent.com/age174/-/main/ysm.js, tag=云扫码
 
 #整点京豆雨
-cron "0 * * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, tag=整点京豆雨
+#cron "0 * * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, tag=整点京豆雨
 #京东到家
 #cron "0 0 * * *" script-path=https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_bean.js, tag=京东到家豆豆
 #半点
-半点京豆雨 = type=cron,cronexp="30 20-23/1 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js
+#半点京豆雨 = type=cron,cronexp="30 20-23/1 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js
+#中青签到
+cron "*/10 5-23 * * * " script-path=https://raw.githubusercontent.com/shufflewzc/Rules/main/Quantumult%20X/Youth/youth_sign.js, tag=中青签到
