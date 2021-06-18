@@ -1,4 +1,4 @@
-#name 十秒阅读
+#!name=十秒阅读
 [Script]
 10s阅读 = type=http-request,pattern=.*read_channel\/do_read&pageshow.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/other/jrkuaixun.js,script-update-interval=0
 
